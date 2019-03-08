@@ -11,7 +11,4 @@ class FizzBuzzer:
         if input % 5 == 0:
             result += 'Buzz'
 
-        if result:
-            return result
-        else:
-            return input
+        return result or input
